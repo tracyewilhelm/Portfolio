@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: slategray;
+}
+
+header {
+  background-color: #2a607c;
+  position: fixed;
+  color: aliceblue;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  height: 5 vh;
+  width: 100%;
+}
+h1 {
+  font-size: 2em;
+  color: aliceblue;
+}
+nav {
+  display: flexbox;
+  position: fixed;
+  justify-content: space-between;
+  /* border: 10px solid black; */
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  height: 75px;
+  width: 60%;
+}
+
+header nav ul li {
+  margin-top: -15px;
+  display: inline-block;
+  justify-content: right;
+}
+
+nav a {
+  font-size: 2em;
+  color: aliceblue;
+  margin-left: 10px;
+  text-decoration: none;
+}
+main {
+  margin-top: 150px;
+}
+
+#headshot {
+  margin-left: 25px;
+}
+p {
+  text-indent: 25px;
+}
+
+.infoCard {
+  display: flexbox;
+  background-color: aliceblue;
+  flex-direction: column;
+  border: 10px solid black;
+  height: fit-content;
+  width: auto;
+  margin: 5%;
+  padding: 5%;
+}
