@@ -52,6 +52,8 @@ main {
 
 #headshot {
   margin-left: 25px;
+  height: auto;
+  max-width: 100%;
 }
 p {
   text-indent: 25px;
@@ -59,6 +61,7 @@ p {
 
 .infoCard {
   display: flexbox;
+  display: flex;
   background-color: aliceblue;
   flex-direction: column;
   border: 10px solid black;
@@ -82,4 +85,9 @@ p {
   background-color: lightsteelblue;
   padding: 10px;
   text-align: center;
+}
+
+#cheatsheet {
+  height: auto;
+  max-width: 100%;
 }
