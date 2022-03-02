@@ -23,9 +23,11 @@ h1 {
 }
 nav {
   display: flexbox;
-  position: fixed;
+  position: relative;
+  text-align: justify;
   justify-content: space-between;
-  /* border: 10px solid black; */
+  float: right;
+  flex-wrap: wrap;
   top: 10px;
   right: 15px;
   padding: 5px;
@@ -37,6 +39,7 @@ header nav ul li {
   margin-top: -15px;
   display: inline-block;
   justify-content: right;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -50,18 +53,9 @@ main {
   margin-top: 150px;
 }
 
-#headshot {
-  margin-left: 25px;
-  height: auto;
-  max-width: 100%;
-}
-p {
-  text-indent: 25px;
-}
-
 .infoCard {
   display: flexbox;
-  display: flex;
+  display: inline-block;
   background-color: aliceblue;
   flex-direction: column;
   border: 10px solid black;
@@ -69,6 +63,15 @@ p {
   width: auto;
   margin: 5%;
   padding: 15px;
+}
+
+#headshot {
+  margin-right: 35px;
+  height: auto;
+  max-width: 100%;
+}
+p {
+  text-indent: 25px;
 }
 
 .portfolio-grid {
