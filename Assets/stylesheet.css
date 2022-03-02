@@ -108,13 +108,13 @@ p {
   align-items: center;
 }
 
-.CheatSheet {
+.weatherTracker {
   display: flex;
 
   justify-content: center;
   align-items: center;
 }
-#CheatSheetImg {
+#weatherTrackerImg {
   display: block;
 
   justify-content: center;
@@ -132,8 +132,22 @@ p {
 }
 
 #MtnMadnessImg {
-  /* display: flex; */
   display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
+.JavaScriptQuiz {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#JSquiz {
+  display: block;
+
   justify-content: center;
   align-items: center;
   height: auto;
