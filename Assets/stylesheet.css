@@ -78,16 +78,65 @@ p {
   background-color: #2196a3;
 }
 .grid-item {
+  justify-content: center;
+  align-items: center;
   grid-gap: 5px 5px;
-  grid-column: 65px;
-  grid-row: 65px;
   border: 1px solid darkslategray;
   background-color: lightsteelblue;
   padding: 10px;
   text-align: center;
 }
 
-#cheatsheet {
+.aboutMe {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#aboutMeImg {
+  display: block;
+  justify-content: center;
+  align-items: center;
   height: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
+.resume {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.CheatSheet {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#CheatSheetImg {
+  display: block;
+
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.MtnMadness {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#MtnMadnessImg {
+  /* display: flex; */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 150px;
   max-width: 100%;
 }
