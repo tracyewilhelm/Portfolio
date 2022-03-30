@@ -8,17 +8,18 @@
     <title>Tracye Wilhelm Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Tracye Wilhelm</h1>
-      <nav>
-        <ul>
-          <li><a href="#about me">about me</a></li>
-          <li><a href="#portfolio">portfolio</a></li>
-          <li><a href="#contact me">contact me</a></li>
-        </ul>
-      </nav>
-    </header>
-
+    <div>
+      <header class="headerbox">
+        <nav>
+          <h1>Tracye Wilhelm</h1>
+          <ul>
+            <li><a href="#about me">about me</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact me">contact me</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <main>
       <section class="infoCard">
         <h2 id="about me">about me</h2>
@@ -81,65 +82,133 @@
         <h2 id="portfolio">portfolio</h2>
         <div class="portfolio-grid">
           <div class="grid-item aboutMe">
-            <a
-              href="https://tracyewilhelm.github.io/prework-about-me/"
-              target="_blank"
-              ><img
-                id="aboutMeImg"
-                src="./Assets/aboutMe.jpg"
-                alt="child's hand with blue paint"
-              />
-              About Me</a
-            >
+            <div>
+              <a
+                href="https://tracyewilhelm.github.io/prework-about-me/"
+                target="_blank"
+                ><img
+                  id="aboutMeImg"
+                  src="./Assets/aboutMe.jpg"
+                  alt="child's hand with blue paint"
+                />
+                <p>About Me</p></a
+              >
+              <p>A quick snippet about me</p>
+            </div>
           </div>
           <div class="grid-item resume">
-            <a
-              href="https://drive.google.com/file/d/11DMHQlV5kMFnzJvEWqZYtdoANitJ0Tcd/view?usp=sharing"
-              target="_blank"
-            >
-              Resume</a
-            >
+            <div>
+              <a
+                href="https://drive.google.com/file/d/11DMHQlV5kMFnzJvEWqZYtdoANitJ0Tcd/view?usp=sharing"
+                target="_blank"
+              >
+                <p>Resume</p></a
+              >
+            </div>
           </div>
 
           <div class="grid-item weatherTracker">
-            <a
-              href="  https://tracyewilhelm.github.io/weather-tracker/"
-              target="_blank"
-              ><img
-                id="weatherTrackerImg"
-                src="./Assets/weatherTracker.png"
-                alt="black rectangle with blue words CSS Cheat Sheet"
-              />
-              Weather Tracker</a
-            >
-          </div>
-          <div class="grid-item MtnMadness">
-            <a href="https://paterma.github.io/Bug-Spray/" target="_blank"
-              ><img
-                id="MtnMadnessImg"
-                src="./Assets/MtnMadness.jpg "
-                alt="mountain with snow"
-              />
+            <div>
+              <a
+                href="  https://tracyewilhelm.github.io/weather-tracker/"
+                target="_blank"
+              >
+                <img
+                  id="weatherTrackerImg"
+                  src="./Assets/weatherTracker.png"
+                  alt="black rectangle with blue words CSS Cheat Sheet"
+                />
+                <p>Weather Tracker</p></a
+              >
+              <p>A way to see the 5-day weather forecast of almost any city</p>
 
-              Mountain Madness</a
-            >
+              <p>
+                <a href="https://github.com/tracyewilhelm/weather-tracker"
+                  >GitHub Link: Weather Tracker</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-item MtnMadness">
+            <div>
+              <a href="https://paterma.github.io/Bug-Spray/" target="_blank">
+                <img
+                  id="MtnMadnessImg"
+                  src="./Assets/MtnMadness.jpg "
+                  alt="mountain with snow"
+                />
+                <p>Mountain Madness</p></a
+              >
+
+              <p>
+                Mountain Magic - a mobile-first app that provides a user with
+                weather and traffic information to local ski resorts using
+                JavaScript, Bootstrap, Web API, two 3rd party APIs, Waze mapping
+                features, and more.
+              </p>
+
+              <p>
+                <a href="https://github.com/Paterma/Bug-Spray"
+                  >GitHub Link: paterma/BugSpray
+                </a>
+              </p>
+            </div>
           </div>
 
           <div class="grid-item JavaScriptQuiz">
-            <a
-              href="https://tracyewilhelm.github.io/Javascript-Quiz/"
-              target="_blank"
-            >
-              <img
-                id="JSquiz"
-                src="./Assets/JavaScriptQuiz.png"
-                alt="Javascript-Quiz"
-              />
-              JavaScript Quiz</a
-            >
+            <div>
+              <a
+                href="https://tracyewilhelm.github.io/Javascript-Quiz/"
+                target="_blank"
+              >
+                <img
+                  id="JSquiz"
+                  src="./Assets/JavaScriptQuiz.png"
+                  alt="Javascript-Quiz"
+                />
+
+                <p>JavaScript Quiz</p>
+              </a>
+              <p>A true/false quiz to test your JavaScript knowledge.</p>
+              <p>
+                <a href="https://github.com/tracyewilhelm/Javascript-Quiz"
+                  >GitHub Link: JavaScript Quiz</a
+                >
+              </p>
+            </div>
           </div>
 
-          <div class="grid-item">Future Project</div>
+          <div class="grid-item PantryChef">
+            <div>
+              <a
+                href="https://awesome-pantry-chef.herokuapp.com"
+                target="_blank"
+              >
+                <img
+                  id="PChefImg"
+                  src="./Assets/PantryChefImg.png"
+                  alt="Pantry Chef Logo"
+                />
+                <p>Pantry Chef</p></a
+              >
+              <p>
+                A full-stack mobile-first web app that allows a user to check
+                mark items in their pantry and see recipes based on their
+                selection. Allows a user to see their favorite recipes by
+                storing user info and saved recipe ID to a remote database.
+                Technology used includes Bootstrap, Handlebars, Node,
+                JavaScript, JSON, MySql, bcrypt, Express, Sequelize, and 3rd
+                Party API calls.
+              </p>
+              <p>
+                <a href="https://github.com/tracyewilhelm/Pantry_Chef"
+                  >GitHub Link: Pantry Chef</a
+                >
+              </p>
+            </div>
+          </div>
+
           <div class="grid-item">Future Project</div>
           <div class="grid-item">Future Project</div>
           <div class="grid-item">Future Project</div>
