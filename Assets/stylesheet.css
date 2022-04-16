@@ -28,16 +28,6 @@ h1 {
 }
 
 header nav ul {
-  /* margin-top: -15px; */
-  /* display: block;
-  float: right;
-  justify-content: right;
-  flex-wrap: wrap;
-  position: relative;
-  bottom: 30px;
-  right: 20px;
-  padding: 10px; */
-
   list-style-type: none;
   margin: 5px;
   padding: 0;
@@ -68,6 +58,11 @@ nav a {
 main {
   margin-top: 150px;
 }
+#container{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
 
 .infoCard {
   display: flexbox;
@@ -81,30 +76,41 @@ main {
   padding: 15px;
 }
 
+
+
+p {
+margin: 15px;
+text-indent: 25px;
+}
 #headshot {
   margin-right: 35px;
   height: auto;
-  max-width: 100%;
-}
-p {
-  text-indent: 25px;
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%
 }
 
 .portfolio-grid {
-  display: grid;
+  /* display: grid; */
   /* grid-template-columns: repeat(auto-fill, 186px); */
-  grid-template-columns: auto auto auto;
+  /* grid-template-columns: auto auto auto; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
   padding: 10px;
   background-color: #2196a3;
 }
 .grid-item {
   justify-content: center;
   align-items: center;
-  grid-gap: 5px 5px;
+  width: 30%;
+  /* grid-gap: 5px 5px; */
   border: 1px solid darkslategray;
   background-color: lightsteelblue;
   padding: 10px;
   text-align: center;
+  margin: 15px;
 }
 
 .aboutMe {
@@ -125,7 +131,14 @@ p {
   justify-content: center;
   align-items: center;
 }
-
+#resumeImg {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
 .weatherTracker {
   display: flex;
   justify-content: center;
@@ -176,4 +189,25 @@ p {
   height: auto;
   max-height: 150px;
   max-width: 100%;
+}
+
+.contactCard {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+  .grid-item {
+    width: 45%;
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .grid-item { 
+    width: 93%;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 }
